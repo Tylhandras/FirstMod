@@ -14,8 +14,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.14.4-0.1.0'
-group = 'com.github.tylhandras.tyl001-test' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'tyl001-test'
+group = 'com.github.tylhandras.firstmod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'firstmod'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
